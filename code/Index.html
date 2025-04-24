@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <!-- Usamos Bootstrap para el CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--  usamos Font Awesome (íconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     
+    <link rel="stylesheet" href="/style/estiloIndex.css">
+    <link rel="icon" href="/img/logo2.png" type="img/png">
+</head>
+<body>
+    <!-- ======= Header / Navbar ======= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-user me-2"></i>Alexander 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ======= Sección Principal (Descripción) ======= -->
+    <section id="inicio" class="hero-section text-center">
+        <div class="container">
+            <img src="/img/foto.jpg" alt="Mi Foto" class="profile-img mb-4">
+            <h1 class="display-4">¡Hola, soy Alexander Gamaniel Coveñas Domador!</h1>
+            <p class="lead">Estudiante de Ingenieria Informatica</p>
+            <a href="#sobre-mi" class="btn btn-primary btn-lg mt-3">Conóceme más</a>
+        </div>
+    </section>
+
+    <!-- Informacion basica sobre mi  -->
+    <section id="sobre-mi" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Sobre Mí</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Mi Historia</h3>
+                    <p>Estudiante de Ingneria Informatica en la facultad de Ingenieria Industrial, perteneciente a la promoción 2019.  </p>
+                </div>
+                <div class="col-lg-6">
+                    <h3>Mis Habilidades</h3>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>Pyhton</li>
+                        <li>Visual Basic</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creamos el Footer -->
+    <footer id="contacto" class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Seccion de los contactos -->
+                <div class="col-md-4 mb-4">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-envelope me-2"></i> gamanielcovenasdomador@gmail.com</li>
+                        <li><i class="fas fa-phone me-2"></i> +51 928 968 757</li>
+                    </ul>
+                </div>
+                <!-- En esta seccion sera ppara poner las redes sociales -->
+                <div class="col-md-4 mb-4">
+                    <h5>Redes Sociales</h5>
+                    <a href="https://www.facebook.com/Alexandergam" class="text-white me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+                    <a href="https://www.linkedin.com/in/alexander-cove%C3%B1as-damador-626832282/" class="text-white me-3"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                    <a href="https://www.instagram.com/alexander.cd05" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                </div>
+                <!-- Para el Cophy -->
+                <div class="col-md-4 mb-4">
+                    <h5>© 2024 Alexander Coveñas</h5>
+                    <p>Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
